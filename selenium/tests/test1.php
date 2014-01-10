@@ -9,17 +9,17 @@ class HAR_Test1 extends PHPUnit_Extensions_SeleniumTestCase
 {
     public static $browsers = array(
       array(
-        'name'    => 'Firefox on Windows',
+        'name'    => 'Firefox',
         'browser' => '*firefox',
         'port'    => 4444,
         'timeout' => 30000,
-      ),
+      )/*,
       array(
         'name'    => 'Internet Explorer on Windows XP',
         'browser' => '*iexplore',
         'port'    => 4444,
         'timeout' => 30000,
-      )
+      )*/
     );
 
     protected function setUp()

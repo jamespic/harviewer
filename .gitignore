@@ -26,3 +26,6 @@
 
 # Extensions
 /extension/firebug@software.joehewitt.com
+
+# Built js files
+/webapp-build/

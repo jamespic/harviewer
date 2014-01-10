@@ -24,10 +24,7 @@ class HAR_TestSearchHAR extends HAR_TestCase
         // From some reason the viewer doesn't receive "keyDown" events so, incremental
         // search isn't tested.
         $this->focus("css=.tabDOMBody .searchInput");
-        $this->keyPress("css=.tabDOMBody .searchInput", "f");
-        $this->keyPress("css=.tabDOMBody .searchInput", "i");
-        $this->keyPress("css=.tabDOMBody .searchInput", "r");
-        $this->keyPress("css=.tabDOMBody .searchInput", "e");
+        $this->type("css=.tabDOMBody .searchInput", "fire");
         $this->keyDown("css=.tabDOMBody .searchInput", "\\13");
 
         // Check selection on the page.

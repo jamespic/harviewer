@@ -10,7 +10,7 @@ class HAR_TestSearchJsonQuery extends HAR_TestCase
     {
         print "\ntestSearchJsonQuery.php";
 
-        $viewerURL = $GLOBALS["test_base"]."tests/testSearchJsonQuery.html";
+        $viewerURL = $GLOBALS["test_base"]."tests/testSearchJsonQuery.html.php";
         $harFileURL = $GLOBALS["test_base"]."tests/hars/searchHAR.har";
         $this->open($viewerURL."?path=".$harFileURL);
 

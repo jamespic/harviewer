@@ -250,6 +250,11 @@
     /* To make the width of the vertica line bigger so, it's easier to get the tooltip */
     border-left: 1px solid white;
     border-right: 1px solid white;
+    
+    /* Box sizing fix - forcibly set this to default, as it gets overwritten by bootstrap */
+    -moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
 }
 
 .netWindowLoadBar {
